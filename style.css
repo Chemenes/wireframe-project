@@ -1,0 +1,14 @@
+ul li {
+list-style: none;
+margin: auto;
+
+}
+
+.navlist{
+ list-style: none;
+}
+
+/* nav{
+  inline-size: 40px;
+  margin: auto;
+} */
