@@ -10,6 +10,17 @@
     width: 25%;
 }
 
+p{
+  
+text-align-last: right
+
+
+float: :right;
+margin-left: 600px;
+
+
+}
+
 nav{
 background-color: #555;
 height: 70px;
@@ -47,6 +58,8 @@ margin: auto;
     text-align: center;
 }
 .top{
+display: block;
+margin: 0 auto;
 width: 140px;
 padding: 30px;
 float: left;
@@ -65,9 +78,10 @@ margin-left: 200px;
 }
 
 .bottom{
-
+  
   
 }
+
 /* nav{
   inline-size: 40px;
   margin: auto;
