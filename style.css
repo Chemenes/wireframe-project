@@ -1,5 +1,5 @@
 .tablink {
-    background-color: #555;
+    background-color: #ddd;
     color: white;
     float: left;
     border: none;
@@ -8,6 +8,19 @@
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+header {
+  width: 100%;
+  background-color: #ddd;
+  height: 100px;
+
 }
 
 p{
@@ -22,15 +35,48 @@ margin-left: 600px;
 }
 
 nav{
-background-color: #555;
-height: 70px;
+  max-width: 960px;
+  text-align: center;
+  margin: auto;
+}
+
+
+ul {
+  display: flex;
+  align-items: stretch;
+  flex-flow: row nowrap;
+  /* justify-content: space-between; */
+  justify-content: center;
+  /* margin-top: 0; */
+  margin: auto;
+  /* max-width: 960px; */
+  vertical-align: top;
+  box-sizing: border-box;
+
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+  /* border-style: solid; */
+  /* border-width: 1px; */
+  text-align: center;
+  width: 25%;
+  height: 70px;
+  line-height: 70px;
+  box-sizing: border-box;
+  margin-top: 15px;
+
 
 }
 
-ul li{
-display: inline-block;
-
-
+#navitem{
+  position: relative;
+  vertical-align: top;
+  min-width: 200px;
+  max-height: 70px;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 15px;
 }
 
 
@@ -53,7 +99,7 @@ margin: auto;
     left: 0;
     bottom: 0px;
     width: 100%;
-    background-color:#555;
+    background-color:#ddd;
     color:black;
     text-align: center;
 }
@@ -61,25 +107,72 @@ margin: auto;
 display: block;
 margin: 0 auto;
 width: 140px;
-padding: 30px;
-float: left;
+padding-right: 30px;
+float: center;
 margin-left: 30px;
 
 
 }
-.middle{
+#middle{
 
 width: 100%;
 padding: 30px;
 float: left;
 margin-left: 200px;
+/* margin: 30px 15px 0px; */
 
 
 }
+.midpageimg {
+  margin: 30px 15px 0px;
+}
 
-.bottom{
+ .midpageimg:first-child {
+   margin: 30px 15px 0px;
+ }
+
+#bottomleft {
+
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 480px;
+  height: 400px;
+  display: inline-block;  
   
-  
+}
+
+.textsection{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;  
+  margin-top: 0px;
+  /* margin-bottom: 0px; */
+  margin-left: 0px;
+  width: 480px;
+  height: 350px;
+  z-index: 10;
+  overflow: scroll;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+button {
+  display: block;
+  position: absolute;
+  float: left;
+  background-color: #ddd;
+  color: black;
+  font-size: 1em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  padding-left: 35px;
+  box-sizing: border-box;
+  z-index: 11;
+  width: 150px;
+  height: 50px;
 }
 
 /* nav{
